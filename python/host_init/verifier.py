@@ -4,7 +4,7 @@ Verifies validity of encrypted code, keys, key_hash, and exploit code
 from hashlib import sha256
 import rsa
 from submission import exploit_entry
-from interface import database_interface, database_init, verify_results
+from interface import database_init
 from cryptography.fernet import Fernet
 
 
@@ -26,10 +26,8 @@ def generate_commitments():
             submitter_key, public_key)
         fp.write(public_encrypted_key)
 
-    # Generate key_hash.txt
-    with open('key_hash.txt', 'w+', encoding='utf-8') as fp:
-        fp.write(sha256(public_encrypted_key).hexdigest())
-        print(sha256(public_encrypted_key).hexdigest())
+    # Print key hash
+    print(sha256(public_encrypted_key).hexdigest())
 
     # Generate ecrypted_code.txt
     with open('submission.py', 'r', encoding='utf-8') as code_fp, \
@@ -47,7 +45,7 @@ if __name__ == "__main__":
     generate_commitments()
 
     # Initialize database
-    hashes = database_init()
+    database_interface, verify_results = database_init()
 
     # Run exploit
     results = exploit_entry(database_interface)

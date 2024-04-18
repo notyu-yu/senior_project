@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "receiver",
+						"type": "address"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"zkcp-interface.sol": "PaymentToken"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"zkcp-interface.sol": {
+			"keccak256": "0xfe904e8f7ab5ebc6efa163c8d9b9470ee57b6d872086ac3ffc80d035bdff2fe8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://55495c050a00561ef6bd8cc2e7614956fcf9460836b9d46e544479514df8ecc1",
+				"dweb:/ipfs/QmZGaPTq1ij7Bpeh65Z2At6MuD1avZnaJ4ULc4FqfroVLH"
+			]
+		}
+	},
+	"version": 1
+}
