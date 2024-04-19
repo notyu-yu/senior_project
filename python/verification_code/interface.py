@@ -10,8 +10,8 @@ rand_data = None
 data_hashes = None
 index = None
 
-LENGTH = 1000  # Length of sequences
-DATA_SIZE = 1000  # Number of datapoints generated
+LENGTH = 100000  # Length of sequences
+DATA_SIZE = 10000  # Number of datapoints generated
 RESULT_SIZE = 100  # Max number of result sequences accepted
 MAX_DISTANCE = LENGTH/100  # Maximum hamming distance variation allowed for results
 

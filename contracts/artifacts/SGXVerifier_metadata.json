@@ -58,11 +58,11 @@
 	},
 	"sources": {
 		"zkcp-interface.sol": {
-			"keccak256": "0xfe904e8f7ab5ebc6efa163c8d9b9470ee57b6d872086ac3ffc80d035bdff2fe8",
+			"keccak256": "0x1c132827278c47f998bf9b7f6651e94a203eb987d09d6b9f2ed0bc888f466d61",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://55495c050a00561ef6bd8cc2e7614956fcf9460836b9d46e544479514df8ecc1",
-				"dweb:/ipfs/QmZGaPTq1ij7Bpeh65Z2At6MuD1avZnaJ4ULc4FqfroVLH"
+				"bzz-raw://b280abc0e5448d9b21ce19afd8fc8d9aa28ca34ab35897ad438ec0c87d59e89c",
+				"dweb:/ipfs/QmaYomsRQtxP2zLUrJjPVbdL6gaUWJ3jZC6MqxmXjMwJ9A"
 			]
 		}
 	},
