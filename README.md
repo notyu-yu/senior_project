@@ -1,5 +1,4 @@
-Sample implemetation of the Blockchain-Based Genome Bug Bounty Program described in this paper:
-*TODO: Include link of final report*
+Sample implemetation of the Blockchain-Based Genome Bug Bounty Program described in `project_report.pdf`.
 
 This example uses gramine-direct to simulate SGX execution, but cannot generate attestations.
 
